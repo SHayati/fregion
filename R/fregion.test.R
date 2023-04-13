@@ -19,6 +19,7 @@
 #' @param prec This determines the accuracy of \link{imhof}. One may try to modify this if p-value achieved in Ellipsoid form other than Epc gives negative value. It should the the form of c(epsabs, epsrel, limit).
 #' @param hat.cov An optional estimated covariance operator, which will be used when 'cov' is given as the true covariance and small sample version(s) are used. Usually not needed.
 #' @param df Degree of freedom to use in small sample versions.
+#' @param return.pval Return pvalues if TRUE and return test statistics otherwise. 
 #' @examples
 #' # 1. Vector/matrix version
 #'
