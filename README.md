@@ -8,7 +8,7 @@ After installing `devtools' first, type in the following in R
 
 ```r
 require(devtools)
-install_github("shayati/hpchoi_fregion")
+install_github("shayati/fregion")
 ```
 
 ## Help
